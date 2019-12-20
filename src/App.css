@@ -1,0 +1,100 @@
+.options
+{
+  width:150px;
+  height:150px;
+}
+.styles
+{
+  display:inline-block;
+  margin-right:20px;
+  padding:10px;
+  background-color:pink;
+  cursor:pointer;
+}
+.active
+{
+  display:inline-block;
+  margin-right:20px;
+  padding:10px;
+  border:3px solid blue;
+  border-radius:10px;
+}
+.styles h4
+{
+  text-align: center;
+}
+.buy
+{
+  padding:20px;
+  background-color: indigo;
+  color:white;
+  font-size:20px;
+  border-radius:10px;
+  margin-right:10px;
+  width:200px;
+}
+.buy:hover
+{
+  background-color: red;
+}
+.App
+{
+  display:flex;
+}
+.main-img
+{
+  width:550px;
+  height:550px;
+  padding-top:100px;
+}
+.time
+{
+  position:absolute;
+  top:340px;
+  left:220px;
+  color:pink;
+  font-size:35px;
+}
+.description h3
+{
+  font-size:30px;
+}
+.description h4
+{
+  font-size:25px;
+}
+.description p
+{
+  font-size:18px;
+}
+.heart-rate
+{
+  position:absolute;
+  top:380px;
+  left:250px;
+  font-size:35px;
+  color:white;
+}
+.heart
+{
+  position:absolute;
+  top:300px;
+  left:220px;
+  width:100px;
+  height:100px;
+  animation:beat 1s infinite;
+}
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.2);
+  }
+  80% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
